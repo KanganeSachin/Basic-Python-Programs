@@ -1,0 +1,15 @@
+#To check if a given character is a vowel or consonant
+
+# method 1
+A = input("Enter Character: ")
+if A == 'a' or A=='e' or A=='i' or A =='o' or A=='u' or A == 'A' or A=='E' or A=='I' or A == 'O' or A=='U':
+    print(A, "it's Vowels")
+else:
+    print(A, "it's Consonant")
+
+#method 2
+A = input("Enter Character: ")
+if A in ('a','e','i','o','u','A','E','I','O','U'):
+    print('Its Vowels')
+else:
+    print('Its Consonant')
