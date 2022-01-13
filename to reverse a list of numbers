@@ -1,0 +1,6 @@
+# to reverse a list of numbers
+
+
+list=[110, 201, 15, 41, 313, 221]
+for i in range(len(list)-1,-1,-1):
+    print(list[i],end=" ")
