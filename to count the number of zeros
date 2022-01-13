@@ -1,0 +1,26 @@
+# Write a program to count the number of zeros in a given number.
+
+
+A = int(input("Enter a Number: "))
+
+ # Without function
+for i in A[0:5]:
+    x = 0
+    var = i
+    if var == '0':
+        x=x+1
+    else:
+        pass
+print(x)
+
+# with function
+def abc():
+    v=0
+    for i in A:
+        if i == '0':
+            v = v+1
+        else:
+            pass
+    return (v)
+
+print(abc())
