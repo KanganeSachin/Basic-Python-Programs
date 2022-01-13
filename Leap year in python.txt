@@ -1,0 +1,25 @@
+
+
+# Leap year checking program in python 
+
+# def function for leap year checking
+def is_leap(year):
+    leap = False
+    if year % 4 == 0:
+        if year % 100 == 0:
+            if year % 400 == 0:
+                leap = True
+            else:
+                leap = False
+        else:
+            leap = True
+    else:
+         leap = False
+
+    return leap
+
+# ask user for input 
+year = int(input("Enter leap year"))
+
+#print given year leap year or not 
+print(is_leap(year))
